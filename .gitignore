@@ -1,0 +1,42 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing & Next.js
+/coverage
+/.next/
+/out/
+/build
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python / ML artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+backend/saved_models/*.joblib
+
+# Operating System
+.DS_Store
+Thumbs.db
